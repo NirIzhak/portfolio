@@ -1,0 +1,341 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header section {
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    margin-block: 1em;
+}
+
+
+header section img {
+    border-radius: 50%;
+    width: 90%;
+}
+
+header section a {
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.line {
+    background-color: #4B6CC1;
+    width: 55px;
+    height: 6px;
+    border-radius: 26px;
+    margin-top: 5px;
+    animation-name: lineMove;
+    animation-duration: 0.2s;
+}
+
+@keyframes lineMove {
+    0% {
+        width: 0;
+    }
+
+    20% {
+        width: 11px;
+    }
+
+    40% {
+        width: 22px;
+    }
+
+    60% {
+        width: 33px;
+    }
+
+    80% {
+        width: 44px;
+    }
+
+    100% {
+        width: 55px;
+    }
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+header nav ul li a {
+    color: #5E5E5E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.welcome {
+    width: 90%;
+    background-color: #F1F8FA;
+    height: 40vh;
+    border-radius: 4px;
+    margin: auto;
+    margin-block: 1.5em;
+}
+
+.welcome h2 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+.welcome p {
+    padding: 1em;
+    line-height: 1.7;
+}
+
+.welcome p a {
+    text-decoration: none;
+    color: #4B6CC1;
+}
+
+.dev {
+    width: 50%;
+    display: flex;
+}
+
+.active {
+    color: #4B6CC1;
+}
+
+.not-active {
+    color: #5E5E5E;
+}
+
+.card {
+    width: 90%;
+    background-color: #F1F8FA;
+    height: 40vh;
+    border-radius: 4px;
+    margin: auto;
+    margin-block: 1.5em;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.work,
+.certif {
+    height: max-content;
+}
+
+.card h3 {
+    font-size: 1.5em;
+}
+
+.card .date {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.card .place {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.info {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.sec {
+    margin-top: 3em;
+}
+
+footer {
+    height: 40px;
+}
+
+.fot {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.social a {
+    color: black;
+    font-size: 1.3em;
+}
+
+.dev-img img {
+    width: 70%;
+    margin-block: 1.2em;
+}
+
+.dev-img {
+    display: flex;
+    justify-content: center;
+}
+
+.stack-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.skill>p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #1a1716;
+    margin: 0;
+}
+
+.skill:before {
+    width: 100%;
+    height: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background: #4B6CC1;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.skill-bar span {
+    position: absolute;
+    border-top: 5px solid #4B6CC1;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+}
+
+.skill-bar {
+    position: relative;
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+.skill1 {
+    width: 95%;
+}
+
+.skill2 {
+    width: 95%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+.skill3 {
+    width: 90%;
+}
+
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+.skill4 {
+    width: 85%;
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+.stack-title {
+    text-align: center;
+    margin-block: 1.2em;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-block: 2em;
+    gap: 1.5em;
+}
+
+.stack i {
+    font-size: 5em;
+    margin: auto;
+}
+
+.do {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-block: 1.5em;
+}
+
+.do img{
+    border-radius: 6px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project{
+    width: 90%;
+    margin: auto;
+    border: 1px solid gray;
+    text-align: center;
+    margin-block: 1.5em;
+    border-radius: 6px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.project img{
+    border-radius: 6px;
+}
+
+.contact h3{
+    text-align: center;
+    margin-block: 1.5em;
+}
+

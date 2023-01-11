@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Diamonds Store",
+        "tech" : "Html, Css, Js",
+        "img" : "/images/projects/diamonds.png",
+        "link" : "https://nirdiamonds.netlify.app/"
+    },
+    {
+        "name" : "Sushi Store",
+        "tech" : "Html, Css, Js",
+        "img" : "/images/projects/sushi.png",
+        "link" : "https://moran-sushi.netlify.app/"
+    },
+    {
+        "name" : "Calculator",
+        "tech" : "C#",
+        "img" : "/images/projects/calculator.png",
+        "link" : "https://github.com/NirIzhak/Calculator"
+
+    },
+    {
+        "name" : "Snake",
+        "tech" : "C#",
+        "img" : "/images/projects/snake.png",
+        "link" : "https://github.com/NirIzhak/Snake"
+    },
+    {
+        "name" : "Tic Tac Toe",
+        "tech" : "C#",
+        "img" : "/images/projects/tictactoe.png",
+        "link" : "https://github.com/NirIzhak/Tic-Tac-Toe"
+    }
+]
