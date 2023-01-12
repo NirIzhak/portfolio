@@ -22,25 +22,25 @@ const Skills = () => {
         <div class="skill">
           <p>HTML5</p>
           <div class="skill-bar skill1">
-            <span class="skill-count1">95%</span>
+            <span class="skill-count1"></span>
           </div>
         </div>
         <div class="skill">
           <p>CSS3</p>
           <div class="skill-bar skill2">
-            <span class="skill-count2">95%</span>
+            <span class="skill-count2"></span>
           </div>
         </div>
         <div class="skill">
           <p>JS</p>
           <div class="skill-bar skill3">
-            <span class="skill-count3">90%</span>
+            <span class="skill-count3"></span>
           </div>
         </div>
         <div class="skill">
           <p>C#</p>
           <div class="skill-bar skill4">
-            <span class="skill-count4">85%</span>
+            <span class="skill-count4"></span>
           </div>
         </div>
       </div>

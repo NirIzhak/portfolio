@@ -4,7 +4,7 @@ const Home = () => {
       <section className="welcome">
         <h2>👋 Hi, I'm Nir.</h2>
         <p>
-          I'm a web developer and software engineer. In my spare time i enjoy
+          I'm a web developer and software engineer. In my spare time I enjoy coding, 
           gaming, football, coocking and build my own projects.
           <br />
           My preferrd tools are Js, React and Node.Js
