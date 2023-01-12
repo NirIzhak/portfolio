@@ -1,6 +1,8 @@
 const About = () => {
   return (
     <section className="about">
+      <img src="/images/education.png" alt="" />
+      <i class="fa-solid fa-arrow-down"></i>
       <div className="edu card">
         <div>
           <h3>Education:</h3>
@@ -18,6 +20,9 @@ const About = () => {
           <span className="date">09/2012 - 09/2016</span>
         </div>
       </div>
+      <img src="/images/working.png" alt="" />
+      <i class="fa-solid fa-arrow-down"></i>
+
       <div className="work card">
         <h3>Work Experience:</h3>
         <div>
@@ -51,6 +56,8 @@ const About = () => {
           </span>
         </div>
       </div>
+<img src="/images/certificate.png" alt="" />
+      <i class="fa-solid fa-arrow-down"></i>
       <div className="certif card">
         <h3>Certificates:</h3>
         <div>

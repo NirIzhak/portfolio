@@ -1,0 +1,98 @@
+@media screen and (min-width: 600px) {
+
+    header section {
+        grid-template-columns: 1fr 5fr;
+    }
+
+    header section img {
+        width: 100%;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+
+    .welcome {
+        width: 90%;
+        font-size: 1.5em;
+        background-color: #F1F8FA;
+        height: 60vh;
+        border-radius: 4px;
+        margin: auto;
+        margin-block: 1.5em;
+    }
+
+    .dev-img {
+        width: 50%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 1.2em;
+    }
+
+    .about img {
+        width: 50%;
+    }
+
+    .about {
+        font-size: 1.5em;
+    }
+
+    .about i {
+        width: 100%;
+    }
+
+    .card {
+        height: max-content;
+    }
+
+    .skills {
+        font-size: 1.5em;
+    }
+
+    .skills img {
+        width: 50%;
+    }
+
+    .projects {
+        margin-block: 4em;
+        font-size: 1.5em;
+    }
+
+    .project {
+        width: 70%;
+    }
+
+    .project:hover {
+        cursor: pointer;
+    }
+
+    .contact {
+        font-size: 1.5em;
+    }
+
+    .contact img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .cont {
+        height: 30vh;
+        width: 70%;
+        margin: auto;
+        padding-top: 2em;
+    }
+
+    .cv-wrapper {
+        height: 30vh;
+        margin: auto;
+        padding-top: 2em;
+        width: 40%;
+        margin-bottom: 2em;
+    }
+
+}

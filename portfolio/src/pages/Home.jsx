@@ -1,4 +1,3 @@
-
 const Home = () => {
   return (
     <>
@@ -12,13 +11,23 @@ const Home = () => {
           <br />
           <br />
           <br />
-          I'm on <a href="">GitHub</a>, <a href="">Linkdein</a> and{" "}
-          <a href="">Instegram</a>.
+          I'm on{" "}
+          <a href="https://github.com/NirIzhak" target="_blank">
+            GitHub
+          </a>
+          ,{" "}
+          <a href="https://www.linkedin.com/in/nir-izhak/" target="_blank">
+            Linkdein
+          </a>{" "}
+          and{" "}
+          <a href="https://www.instagram.com/nirizhak/" target="_blank">
+            Instegram
+          </a>
+          .
         </p>
       </section>
       <div className="dev-img">
-      <img src="./images/dev.png" alt="" />
-
+        <img src="./images/dev.png" alt="" />
       </div>
     </>
   );

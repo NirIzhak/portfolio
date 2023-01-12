@@ -83,7 +83,7 @@ header nav ul li a {
 .welcome {
     width: 90%;
     background-color: #F1F8FA;
-    height: 40vh;
+    height: max-content;
     border-radius: 4px;
     margin: auto;
     margin-block: 1.5em;
@@ -296,7 +296,7 @@ footer {
     margin-block: 1.5em;
 }
 
-.do img{
+.do img {
     border-radius: 6px;
     box-shadow:
         2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -307,14 +307,14 @@ footer {
         100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-.icon{
+.icon {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.project{
+.project {
     width: 90%;
     margin: auto;
     border: 1px solid gray;
@@ -330,12 +330,78 @@ footer {
         100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-.project img{
+.project img {
     border-radius: 6px;
 }
 
-.contact h3{
+.contact h3 {
     text-align: center;
+    margin-block: 2em;
+}
+
+.about {
+    text-align: center;
+}
+
+
+.about i {
+    font-size: 2em;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 90%;
+    margin: auto;
     margin-block: 1.5em;
 }
 
+.cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4B6CC1;
+    color: white;
+    border-radius: 6px;
+    height: max-content;
+    padding-top: 1em;
+    opacity: 0.95;
+}
+
+.cont i {
+    font-size: 1.2em;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.contact img {
+    margin-block: 1.5em;
+}
+
+.cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4B6CC1;
+    color: white;
+    border-radius: 6px;
+    height: max-content;
+    padding-top: 1em;
+    opacity: 0.95;
+    width: 50%;
+    margin: auto;
+}
+
+
+.cv-wrapper i {
+    font-size: 1.2em;
+}
+
+.cv-wrapper{
+    margin-bottom: 5em;
+}

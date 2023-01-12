@@ -12,7 +12,7 @@ const Skills = () => {
           <img src="/images/mobileDev.png" alt="" />
         </div>
         <div className="do">
-          <p>Proggraming</p>
+          <p>Programming</p>
           <img src="/images/program.png" alt="" />
         </div>
       </div>
