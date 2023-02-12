@@ -21,7 +21,7 @@ const Home = () => {
           </a>{" "}
           and{" "}
           <a href="https://www.instagram.com/nirizhak/" target="_blank">
-            Instegram
+          Instagram
           </a>
           .
         </p>
