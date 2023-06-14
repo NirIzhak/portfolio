@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
         </a>
       </div>
-      <a href="\files\Nir Izhak's Resume.pdf" download className="down-button">
+      <a href="\files\Nir_Izhak_CV.pdf" download className="down-button">
       <div className="cv-wrapper">
       <i class="fa-regular fa-circle-user"></i>
       <br />
